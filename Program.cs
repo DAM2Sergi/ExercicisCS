@@ -26,8 +26,6 @@ namespace ExercicisCS
 
                 Console.WriteLine(nums[i]);
 
-                nums[i + 1] = nums[i];
-
             }
 
 
