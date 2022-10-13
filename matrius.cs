@@ -2,7 +2,7 @@
 
 namespace ExercicisCS
 {
-    class matrius
+    class Matrius
     {
         static void Main(string[] args)
         {
