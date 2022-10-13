@@ -8,5 +8,15 @@ namespace ExercicisCS
 {
     class Bucles
     {
+        static void Main(string[] args)
+        {
+            Bucles1();
+        }
+        public static void Bucles1()
+        {
+
+        }
     }
+
+
 }
