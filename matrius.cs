@@ -4,10 +4,7 @@ namespace ExercicisCS
 {
     class Matrius
     {
-        static void Main(string[] args)
-        {
-            Matrius1();
-        }
+
 
         public static void Matrius1()
         {
