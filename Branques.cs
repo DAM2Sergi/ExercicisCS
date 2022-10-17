@@ -8,10 +8,52 @@ namespace ExercicisCS
 {
     class Branques
     {
-        static void Main(string[] args)
+
+        public static void MenuBranques()
         {
-            Branques1();
+            bool sortir = false;
+
+            do
+            {
+
+                Console.WriteLine("||--------------------------------------||");
+                Console.WriteLine("||\tMenu Branques\t\t\t||");
+                Console.WriteLine("||\tEscull una opcio:\t\t||");
+                Console.WriteLine("||\t\t\t\t\t||");
+                Console.WriteLine("||\t1.-Branques1\t\t\t||");
+                Console.WriteLine("||\t2.-Branques2\t\t\t||");
+                Console.WriteLine("||\t3.-Branques3\t\t\t||");
+                Console.WriteLine("||\t4.-Sortir\t\t\t||");
+                Console.WriteLine("||\t\t\t\t\t||");
+                Console.WriteLine("||--------------------------------------||");
+
+
+                int menu = Convert.ToInt32(Console.ReadLine());
+
+                switch (menu)
+                {
+
+                    case 1:
+                        Branques1();
+                        break;
+
+                    case 2:
+                        Branques2();
+                        break;
+
+                    case 3:
+                        Branques3();
+                        break;
+
+                    case 4:
+                        sortir = true;
+                        break;
+
+                }
+
+            } while (!sortir);
         }
+
         private static void Branques1()
         {
 

@@ -4,7 +4,55 @@ namespace ExercicisCS
 {
     class Matrius
     {
+        public static void MenuMatrius()
+        {
+            bool sortir = false;
 
+            do
+            {
+
+                Console.WriteLine("||--------------------------------------||");
+                Console.WriteLine("||\tMenu Matrius\t\t\t||");
+                Console.WriteLine("||\tEscull una opcio:\t\t||");
+                Console.WriteLine("||\t\t\t\t\t||");
+                Console.WriteLine("||\t1.-Matrius1\t\t\t||");
+                Console.WriteLine("||\t2.-Matrius2\t\t\t||");
+                Console.WriteLine("||\t3.-Matrius3\t\t\t||");
+                Console.WriteLine("||\t4.-Matrius4\t\t\t||");
+                Console.WriteLine("||\t5.-Sortir\t\t\t||");
+                Console.WriteLine("||\t\t\t\t\t||");
+                Console.WriteLine("||--------------------------------------||");
+
+
+                int menu = Convert.ToInt32(Console.ReadLine());
+
+                switch (menu)
+                {
+
+                    case 1:
+                        Matrius1();
+                        break;
+
+                    case 2:
+                        Matrius2();
+                        break;
+
+                    case 3:
+                        Matrius3();
+                        break;
+
+                    case 4:
+                        Matrius4();
+                        break;
+
+                    case 5:
+                        sortir = true;
+                        break;
+
+                }
+
+            } while (!sortir);
+        }
 
         public static void Matrius1()
         {
