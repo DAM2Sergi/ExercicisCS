@@ -133,29 +133,10 @@ namespace ExercicisCS
 
         }
 
-        private static void Bucles3()
+        private static void Branques2()
         {
 
-            Console.Write("Eentra un numero");
-            int rows = Convert.ToInt32(Console.ReadLine());
 
-            string linia="";
-            int cont = 1;
-
-
-            for (int i = 1; i <= rows; i++)
-            {
-                linia = "";
-
-                for (int j = 1; j <= i; j++)
-                {
-                    
-                    linia+="|" + cont;
-
-
-                    cont++;
-                    
-                }
 
                 Console.WriteLine(linia);
             }
